@@ -81,9 +81,9 @@
         default_layer {
             bindings = <
 &kp Q      &kp L         &kp R         &kp Y                        &kp W                                                         &kp P        &kp B  &kp U      &kp J    &kp MINUS
-&kp A      &kp H         &kp N         &kp S                        &kp M      &kp LS(LG(S))                      &kp BACKSPACE   &kp K        &kp T  &kp E      &kp I    &kp O
+&kp A      &kp H         &kp N         &kp S                        &kp M      &mo 6                              &kp BACKSPACE   &kp K        &kp T  &kp E      &kp I    &kp O
 &kp Z      &kp X         &kp C         &kp V                        &kp F      &kp LEFT_SHIFT                     &kp ENTER       &kp D        &kp G  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &kp SPACE  &lt_to_layer_0 2 INT_MUHENKAN      &kp INT_HENKAN  &lt 1 ENTER                             &kp DEL
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 3 INT_HENKAN  &kp SPACE  &lt_to_layer_0 2 INT_MUHENKAN      &kp INT_HENKAN  &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -138,10 +138,10 @@
 
         layer_6 {
             bindings = <
-&trans  &trans        &trans        &trans        &trans                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
-&trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
+&trans        &trans        &trans        &trans  &trans                          &trans  &trans  &trans  &trans  &trans
+&trans        &trans        &trans        &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &trans        &trans        &trans  &trans  &sys_reset      &trans  &trans  &trans  &trans  &trans  &bt BT_CLR
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans  &trans          &trans  &trans                          &bt BT_CLR_ALL
             >;
         };
     };
