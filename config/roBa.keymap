@@ -127,12 +127,12 @@
             >;
         };
 
-        SCROLL {
+        GAME {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&kp N1            &kp N2  &kp N3  &kp N4   &kp N5                               &trans  &trans  &trans  &trans  &trans
+&trans            &kp Q   &kp W   &kp E    &kp R      &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_CONTROL  &kp A   &kp S   &kp D    &kp F      &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT    &trans  &trans  &kp TAB  &kp SPACE  &kp LEFT_ALT      &trans  &trans                          &to 0
             >;
         };
 
