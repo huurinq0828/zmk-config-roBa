@@ -86,7 +86,7 @@
 &kp Q      &kp L         &kp R         &kp Y         &kp W                                              &kp P        &kp B  &kp U      &kp J    &kp MINUS
 &kp A      &kp H         &kp N         &kp S         &kp M      &trans                  &kp BACKSPACE   &kp K        &kp T  &kp E      &kp I    &kp O
 &kp Z      &kp X         &kp C         &kp V         &kp F      &kp LEFT_SHIFT          &kp ENTER       &kp D        &kp G  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 ESCAPE  &kp SPACE  &lt 2 INT_MUHENKAN      &kp INT_HENKAN  &lt 1 ENTER                             &kp DEL
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 ESCAPE  &kp SPACE  &lt 2 INT_MUHENKAN      &kp INT_HENKAN  &lt 2 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -132,10 +132,10 @@
 
         GAME {
             bindings = <
-&kp N1            &kp N2  &kp N3  &kp N4     &kp N5                               &trans  &trans  &trans  &trans  &trans
-&kp T             &kp Q   &kp W   &kp E      &kp R      &trans            &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_CONTROL  &kp A   &kp S   &kp D      &kp F      &kp G             &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT    &kp X   &kp C   &lt 4 TAB  &kp SPACE  &kp LEFT_ALT      &trans  &trans                          &to 0
+&kp N1            &kp N2  &kp N3  &kp N4        &kp N5                               &trans  &trans  &trans  &trans  &trans
+&kp T             &kp Q   &kp W   &kp E         &kp R      &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_CONTROL  &kp A   &kp S   &kp D         &kp F      &kp G             &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT    &kp X   &kp C   &lt 4 ESCAPE  &kp SPACE  &kp LEFT_ALT      &trans  &trans                          &to 0
             >;
         };
 
